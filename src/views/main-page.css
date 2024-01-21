@@ -1,0 +1,2019 @@
+.main-page-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.main-page-container01 {
+  width: 0;
+  height: 0;
+}
+.main-page-container02 {
+  display: contents;
+}
+
+section {
+  margin: 0px;
+}
+
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.main-page-youre-invited {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-self: center;
+  max-height: auto;
+  min-height: auto;
+  overflow-y: hidden;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/Background/s1-1500w.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+.main-page-padding {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 120px;
+  position: relative;
+  align-self: center;
+  max-height: 100%;
+  min-height: 100vh;
+  overflow-y: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  min-height: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-text {
+  color: rgb(237, 226, 204);
+  width: auto;
+  height: auto;
+  font-size: 80px;
+  align-self: center;
+  text-align: center;
+  font-family: "LTGlockenspiel-Black";
+}
+.main-page-button {
+  color: #28282A;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #FFC661;
+}
+.main-page-button:hover {
+  background-color: #EDE2CC;
+  color: #4B4A52;
+}
+.main-page-head {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  max-height: 100%;
+  min-height: 100vh;
+  overflow-y: hidden;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/Background/s2%20revise-1500h.png");
+  background-position: left;
+  animation: fade-in 5s alternate;
+
+}
+.main-page-head-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 120px;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main-page-head-content {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-page-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-page-text01 {
+  color: rgb(40, 40, 42);
+  width: auto;
+  font-size: 48px;
+  text-align: left;
+  font-family: "LTGlockenspiel-Black";
+}
+.main-page-text02 {
+  font-size: 96px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: left;
+  font-family: "LTGlockenspiel-Black";
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.main-page-container04 {
+  flex: 0 0 auto;
+  width: 60%;
+  display: flex;
+  opacity: 1;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+}
+.main-page-text08 {
+  color: rgb(40, 40, 42);
+  width: auto;
+  font-size: 20px;
+  text-align: left;
+  font-family: "PlusJakartaSans-Regular";
+}
+.main-page-text09 {
+  color: rgb(40, 40, 42);
+  font-size: 20px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: left;
+  font-family: "PlusJakartaSans-Bold";
+}
+.main-page-the-groom {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/Background/s3-1500h.png");
+  scroll-snap-type: always;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+  background-position: center;
+  animation: fade-in 5s alternate;
+
+}
+.main-page-the-groom-padding {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 120px;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main-page-the-groom-content {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-page-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-page-text10 {
+  color: rgb(40, 40, 42);
+  width: auto;
+  height: auto;
+  font-size: 48px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: "LTGlockenspiel-Black";
+}
+.main-page-text11 {
+  color: rgb(40, 40, 42);
+  height: auto;
+  font-size: 96px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: left;
+  font-family: "LTGlockenspiel-Black";
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.main-page-text18 {
+  color: rgb(40, 40, 42);
+  font-size: 20px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: "PlusJakartaSans-Bold";
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.main-page-text19 {
+  color: rgb(40, 40, 42);
+  font-size: 24px;
+  text-align: left;
+  font-family: "PlusJakartaSans-Regular";
+}
+.main-page-text22 {
+  color: rgb(40, 40, 42);
+  font-size: 16px;
+  align-self: flex-start;
+  box-shadow: rgb(40, 40, 42) 2px 2px 4px 0px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: left;
+  font-family: "Inter";
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
+  background-color: rgb(255, 198, 97);
+  transition: 0.3s;
+}
+
+.main-page-text22:hover {
+  background-color: #EDE2CC;
+  color: #4B4A52;
+}
+
+.main-page-the-bride {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/Background/s4-1500h.png");
+  background-position: center;
+  animation: fade-in 5s alternate;
+
+}
+.main-page-the-bride-padding {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 120px;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.main-page-the-bride-content {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-page-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-page-text23 {
+  color: rgb(40, 40, 42);
+  width: auto;
+  font-size: 48px;
+  align-self: flex-end;
+  text-align: right;
+  font-family: "LTGlockenspiel-Black";
+}
+.main-page-text24 {
+  color: rgb(40, 40, 42);
+  font-size: 96px;
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: right;
+  font-family: "LTGlockenspiel-Black";
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.main-page-text29 {
+  color: rgb(40, 40, 42);
+  font-size: 20px;
+  align-self: flex-end;
+  text-align: right;
+  font-family: "PlusJakartaSans-Bold";
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.main-page-text30 {
+  color: rgb(40, 40, 42);
+  font-size: 24px;
+  align-self: flex-end;
+  text-align: right;
+  font-family: "PlusJakartaSans-Regular";
+}
+.main-page-link {
+  color: #28282A;
+  box-shadow: 2px 2px 4px 0px #28282a;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: right;
+  font-family: "Inter";
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
+  background-color: #FFC661;
+  transition: 0.3s;
+}
+
+.main-page-link:hover {
+  background-color: #EDE2CC;
+  color: #4B4A52;
+}
+
+.main-page-acara {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-height: 100%;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("/Background/s5-1500h.png");
+  background-position: center;
+  animation: fade-in 5s alternate;
+
+}
+.main-page-event-padding {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 120px;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main-page-event-content {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-page-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-page-text33 {
+  color: #EDE2CC;
+  font-size: 48px;
+  font-family: "LTGlockenspiel-Black";
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+.main-page-text34 {
+  color: #EDE2CC;
+  width: 80%;
+  font-size: 96px;
+  font-family: "LTGlockenspiel-Black";
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.main-page-acara1 {
+  gap: var(--dl-space-space-fourunits);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.main-page-akad {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-page-text35 {
+  color: #EDE2CC;
+  font-size: 20px;
+  font-family: "PlusJakartaSans-Bold";
+}
+.main-page-text36 {
+  color: #EDE2CC;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans";
+}
+.main-page-akad1 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-page-text37 {
+  color: #EDE2CC;
+  font-size: 20px;
+  font-family: "PlusJakartaSans-Bold";
+}
+.main-page-text38 {
+  color: #EDE2CC;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans";
+}
+.main-page-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-page-alamat {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: column;
+  animation: fade-in 5s alternate;
+
+}
+.main-page-text39 {
+  color: #EDE2CC;
+  font-size: 20px;
+  font-family: "PlusJakartaSans-Bold";
+}
+.main-page-text40 {
+  color: #EDE2CC;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans";
+}
+.main-page-acara2 {
+  gap: var(--dl-space-space-fourunits);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main-page-link1 {
+  color: rgb(40, 40, 42);
+  font-size: 16px;
+  box-shadow: rgb(40, 40, 42) 2px 2px 4px 0px;
+  text-align: left;
+  font-family: "Plus Jakarta Sans";
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline   none;
+  background-color: rgb(255, 198, 97);
+  transition: 0.3s;
+}
+
+.main-page-link1:hover {
+  background-color: #EDE2CC;
+  color: #4B4A52;
+}
+
+.main-page-love-story {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/Background/s6-1500h.png");
+  background-position: center;
+}
+.main-page-love-story-padding {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 120px;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main-page-love-story-content {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main-page-text43 {
+  color: rgb(237, 226, 204);
+  font-size: 48px;
+  font-family: "LTGlockenspiel-Black";
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+.main-page-container09 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-page-slider {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+}
+.main-page-slider-slide {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698778574083-279be0ac6681?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzU2N3w&ixlib=rb-4.0.3&q=80&w=1500');
+}
+.main-page-slider-slide1 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1697384333613-de519c7367c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzAzN3w&ixlib=rb-4.0.3&q=80&w=1500');
+}
+.main-page-slider-slide2 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698180687511-bd6c0104ee98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzQ5NXw&ixlib=rb-4.0.3&q=80&w=1500');
+}
+.main-page-slider-pagination {
+  display: block;
+}
+.main-page-gift {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/Background/s7%20revise-1500h.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: fade-in 5s alternate;
+
+}
+.main-page-gift-padding {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 120px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-page-gift-content {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-text44 {
+  color: #EDE2CC;
+  font-size: 48px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: "LTGlockenspiel-Black";
+  margin-bottom: 120px;
+}
+.main-page-text45 {
+  color: #EDE2CC;
+  width: 80%;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Plus Jakarta Sans";
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.main-page-rekening-select {
+  flex: 0 0 auto;
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main-page-select {
+  width: 100%;
+  height: 100%;
+  padding: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  border-color: #FFC661;
+  border-width: 1px;
+  margin-right: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  color: #FFC661;
+}
+.main-page-select:hover {
+  height: 100%;
+  background-color: #EDE2CC;
+  color: #4B4A52;
+}
+.main-page-button1 {
+  color: #4B4A52;
+  height: 100%;
+  font-size: 16px;
+  box-shadow: 2px 2px 4px 0px #28282a;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
+  background-color: #FFC661;
+}
+.main-page-button1:hover {
+  background-color: #EDE2CC;
+  color: #4B4A52;
+}
+.main-page-container11 {
+  display: contents;
+}
+.main-page-text46 {
+  color: rgb(237, 226, 204);
+  font-size: 20px;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: left;
+  font-family: "Plus Jakarta Sans";
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.main-page-alamat-select {
+  flex: 0 0 auto;
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main-page-select1 {
+  width: 100%;
+  height: 100%;
+  padding: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  border-color: #FFC661;
+  border-width: 1px;
+  margin-right: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  color: #FFC661;
+
+}
+.main-page-select1:hover {
+  height: 100%;
+  background-color: #EDE2CC;
+  color: #4B4A52;
+}
+.main-page-button2 {
+  color: rgb(75, 74, 82);
+  height: 100%;
+  font-size: 16px;
+  box-shadow: 2px 2px 4px 0px #28282a;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
+  background-color: rgb(255, 198, 97);
+}
+.main-page-button2:hover {
+  background-color: #EDE2CC;
+  color: #4B4A52;
+}
+.main-page-countdown {
+  flex: 0 0 auto;
+  color: #4B4A52;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/Background/s8-1500h.png");
+  background-position: center;
+  animation: fade-in 5s alternate;
+  overflow-y: hidden;
+
+}
+.main-page-countdown-padding {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 120px;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.main-page-countdown-content {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-countdown-title {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main-page-text47 {
+  color: #ede2cc;
+  font-size: 48px;
+  text-align: left;
+  font-family: "LTGlockenspiel-Black";
+  text-transform: capitalize;
+}
+.main-page-text48 {
+  color: #ffc661;
+  font-size: 48px;
+  text-align: left;
+  font-family: "LTGlockenspiel-Black";
+  text-transform: capitalize;
+}
+.main-page-countdown-times {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  justify-content: center;
+}
+.main-page-days {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-days1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: center;
+  align-items: center;
+  border-color: #ffc661;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-text49 {
+  color: rgb(255, 198, 97);
+  font-size: 96px;
+  font-family: "LTGlockenspiel-Black";
+  border-radius: var(--dl-radius-radius-radius8);
+  text-transform: capitalize;
+}
+.main-page-text50 {
+  color: #ffc661;
+  align-self: center;
+  font-family: "PlusJakartaSans-Bold";
+  text-transform: uppercase;
+}
+.main-page-hours {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-hours1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: center;
+  align-items: center;
+  border-color: #ffc661;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-text51 {
+  color: rgb(255, 198, 97);
+  font-size: 96px;
+  font-family: "LTGlockenspiel-Black";
+  border-radius: var(--dl-radius-radius-radius8);
+  text-transform: capitalize;
+}
+.main-page-text52 {
+  color: rgb(255, 198, 97);
+  align-self: center;
+  font-family: "PlusJakartaSans-Bold";
+  text-transform: uppercase;
+}
+.main-page-minutes {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-minutes1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: center;
+  align-items: center;
+  border-color: #ffc661;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-text53 {
+  color: rgb(255, 198, 97);
+  font-size: 96px;
+  font-family: "LTGlockenspiel-Black";
+  border-radius: var(--dl-radius-radius-radius8);
+  text-transform: capitalize;
+}
+.main-page-text54 {
+  color: rgb(255, 198, 97);
+  font-family: "PlusJakartaSans-Bold";
+}
+.main-page-second {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-second1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: center;
+  align-items: center;
+  border-color: #ffc661;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-text55 {
+  color: rgb(255, 198, 97);
+  font-size: 96px;
+  font-family: "LTGlockenspiel-Black";
+  border-radius: var(--dl-radius-radius-radius8);
+  text-transform: capitalize;
+}
+.main-page-text56 {
+  color: rgb(255, 198, 97);
+  font-family: "PlusJakartaSans-Bold";
+}
+.main-page-watermark {
+  color: #28282A;
+  right: 64px;
+  bottom: 32px;
+  opacity: 0.3;
+  position: fixed;
+  font-size: 64px;
+  text-align: right;
+  font-family: "LTGlockenspiel-Black";
+}
+@media(max-width: 991px) {
+  .main-page-youre-invited {
+    background-size: cover;
+    background-image: url("/Background/s1%20phone-1500w.png");
+  }
+  .main-page-padding {
+    padding: var(--dl-space-space-sixunits);
+  }
+  .main-page-content {
+    align-self: center;
+    align-items: center;
+  }
+  .main-page-text {
+    align-self: center;
+  }
+  .main-page-head {
+    background-position: center;
+  }
+  .main-page-head-container {
+    padding: var(--dl-space-space-sixunits);
+  }
+  .main-page-head-content {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .main-page-container03 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .main-page-container04 {
+    width: auto;
+    opacity: 0.6;
+    padding: var(--dl-space-space-unit);
+    box-shadow: 4px 4px 8px 0px #28282a;
+    border-radius: var(--dl-radius-radius-radius8);
+    background-color: #EDE2CC;
+  }
+  .main-page-text08 {
+    width: auto;
+    font-family: PlusJakartaSans-SemiBold;
+  }
+  .main-page-the-groom-padding {
+    padding: var(--dl-space-space-sixunits);
+    align-items: center;
+  }
+  .main-page-the-groom-content {
+    width: 100%;
+    align-self: center;
+    justify-content: space-between;
+  }
+  .main-page-container05 {
+    width: auto;
+  }
+  .main-page-text22 {
+    box-shadow: 2px 2px 4px 0px #28282a;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: #FFC661;
+    transition: 0.3s;
+  }
+  
+  .main-page-text22:hover {
+    background-color: #EDE2CC;
+    color: #4B4A52;
+  }
+
+  .main-page-the-bride {
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/Background/s4-1500h.png");
+    background-position: center;
+  }
+  .main-page-the-bride-padding {
+    padding: var(--dl-space-space-sixunits);
+  }
+  .main-page-the-bride-content {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .main-page-container06 {
+    width: auto;
+  }
+  .main-page-link {
+    color: #28282A;
+    box-shadow: 2px 2px 4px 0px #28282a;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: #FFC661;
+  }
+  .main-page-event-padding {
+    padding: var(--dl-space-space-sixunits);
+  }
+  .main-page-event-content {
+    justify-content: space-between;
+  }
+  .main-page-container07 {
+    width: auto;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-text33 {
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-text34 {
+    width: 100%;
+    font-size: 80px;
+    font-family: LTGlockenspiel-Black;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-container08 {
+    width: auto;
+  }
+  .main-page-alamat {
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-link1 {
+    font-size: 24px;
+  }
+  .main-page-love-story {
+    background-size: cover;
+    background-image: url("/Background/s6%20phone-1500w.png");
+  }
+  .main-page-love-story-padding {
+    padding: var(--dl-space-space-sixunits);
+  }
+  .main-page-love-story-content {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .main-page-gift {
+    background-size: cover;
+    background-image: url("/Background/s7%20phone-1500w.png");
+  }
+  .main-page-gift-padding {
+    padding: var(--dl-space-space-sixunits);
+  }
+  .main-page-gift-content {
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+  }
+  .main-page-text45 {
+    width: 100%;
+  }
+  .main-page-button1 {
+    box-shadow: 2px 2px 4px 0px #28282a;
+    border-width: 0px;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .main-page-button2 {
+    box-shadow: 2px 2px 4px 0px #28282a;
+    border-width: 0px;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .main-page-countdown {
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/Background/s8%20phone-1500w.png");
+  }
+  .main-page-countdown-times {
+    gap: var(--dl-space-space-twounits);
+  }
+  .main-page-days1 {
+    width: auto;
+  }
+  .main-page-hours1 {
+    width: auto;
+  }
+  .main-page-minutes1 {
+    width: auto;
+  }
+  .main-page-text54 {
+    color: rgb(255, 198, 97);
+    font-family: PlusJakartaSans-Bold;
+  }
+  .main-page-second1 {
+    width: auto;
+  }
+  .main-page-text56 {
+    color: rgb(255, 198, 97);
+    font-family: PlusJakartaSans-Bold;
+  }
+}
+@media(max-width: 767px) {
+  .main-page-youre-invited {
+    background-size: cover;
+    background-image: url("/Background/s1%20phone-1500w.png");
+  }
+  .main-page-padding {
+    padding: var(--dl-space-space-sixunits);
+    align-self: center;
+  }
+  .main-page-content {
+    align-self: center;
+    align-items: center;
+  }
+  .main-page-text {
+    align-self: center;
+    text-align: center;
+  }
+  .main-page-head {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/Background/s2%20phone%20revise-1500w.png");
+  }
+  .main-page-head-container {
+    padding: var(--dl-space-space-fourunits);
+  }
+  .main-page-head-content {
+    justify-content: space-between;
+  }
+  .main-page-container03 {
+    width: auto;
+  }
+  .main-page-text01 {
+    font-size: 32px;
+  }
+  .main-page-text02 {
+    font-size: 64px;
+    margin-top: var(--dl-space-space-fourunits);
+    font-family: LTGlockenspiel-Black;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-container04 {
+    width: auto;
+    opacity: 0.6;
+    padding: var(--dl-space-space-halfunit);
+    box-shadow: 4px 4px 4px 0px #28282a;
+    border-radius: var(--dl-radius-radius-radius8);
+    background-color: #EDE2CC;
+  }
+  .main-page-text08 {
+    color: rgb(40, 40, 42);
+    width: auto;
+    font-family: PlusJakartaSans-SemiBold;
+  }
+  .main-page-text09 {
+    color: rgb(40, 40, 42);
+    font-size: 15px;
+    font-family: PlusJakartaSans-Bold;
+  }
+  .main-page-the-groom {
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/Background/s3%20phone-1500w.png");
+    background-position: center;
+  }
+  .main-page-the-groom-padding {
+    padding: var(--dl-space-space-fourunits);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .main-page-the-groom-content {
+    width: 80%;
+    align-self: center;
+    justify-content: space-between;
+  }
+  .main-page-text10 {
+    color: rgb(40, 40, 42);
+    height: auto;
+    font-size: 32px;
+    font-family: LTGlockenspiel-Black;
+  }
+  .main-page-text11 {
+    color: rgb(40, 40, 42);
+    height: auto;
+    font-size: 64px;
+    margin-top: var(--dl-space-space-twounits);
+    font-family: LTGlockenspiel-Black;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-text18 {
+    font-size: 16px;
+    margin-top: var(--dl-space-space-threeunits);
+  }
+  .main-page-text19 {
+    font-size: 16px;
+  }
+  .main-page-text22 {
+    font-size: 16px;
+    box-shadow: 2px 2px 4px 0px #28282a;
+    font-family: PlusJakartaSans-Regular;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: #FFC661;
+  }
+  .main-page-the-bride {
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/Background/s4%20phone-1500w.png");
+  }
+  .main-page-the-bride-padding {
+    padding: var(--dl-space-space-fourunits);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .main-page-the-bride-content {
+    width: 100%;
+    align-items: flex-end;
+  }
+  .main-page-container06 {
+    width: auto;
+    align-self: flex-end;
+  }
+  .main-page-text23 {
+    font-size: 32px;
+  }
+  .main-page-text24 {
+    font-size: 64px;
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .main-page-text29 {
+    font-size: 16px;
+  }
+  .main-page-text30 {
+    font-size: 16px;
+  }
+  .main-page-link {
+    color: #28282A;
+    box-shadow: 2px 2px 4px 0px #28282a;
+    padding-top: var(--dl-space-space-halfunit);
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: #FFC661;
+  }
+  .main-page-acara {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/Background/s5%20phone-1500w.png");
+  }
+  .main-page-event-padding {
+    padding: var(--dl-space-space-sixunits);
+  }
+  .main-page-event-content {
+    justify-content: space-between;
+  }
+  .main-page-container07 {
+    width: 100%;
+    margin-bottom: var(--dl-space-space-threeunits);
+    justify-content: space-between;
+  }
+  .main-page-text34 {
+    width: 100%;
+    font-size: 80px;
+    font-family: LTGlockenspiel-Black;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-container08 {
+    width: 100%;
+  }
+  .main-page-alamat {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-link1 {
+    color: #28282A;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px 0px #28282a;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: #FFC661;
+  }
+  .main-page-love-story {
+    background-size: cover;
+    background-image: url("/Background/s6%20phone-1500w.png");
+  }
+  .main-page-love-story-padding {
+    padding: var(--dl-space-space-fourunits);
+  }
+  .main-page-love-story-content {
+    width: 100%;
+  }
+  .main-page-text43 {
+    font-size: 32px;
+  }
+  .main-page-gift {
+    background-size: cover;
+    background-image: url("/Background/s7%20phone-1500w.png");
+  }
+  .main-page-gift-padding {
+    padding: var(--dl-space-space-fourunits);
+  }
+  .main-page-gift-content {
+    width: 100%;
+    justify-content: center;
+  }
+  .main-page-text44 {
+    font-size: 32px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-text45 {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-rekening-select {
+    width: 100%;
+  }
+  .main-page-select {
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .main-page-button1 {
+    font-size: 16px;
+    box-shadow: 2px 2px 4px 0px #28282a;
+    padding-top: var(--dl-space-space-halfunit);
+    border-width: 0px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .main-page-text46 {
+    font-size: 16px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-alamat-select {
+    width: 100%;
+  }
+  .main-page-select1 {
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .main-page-button2 {
+    font-size: 16px;
+    box-shadow: 2px 2px 4px 0px #28282a;
+    padding-top: var(--dl-space-space-halfunit);
+    border-width: 0px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .main-page-countdown {
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/Background/s8%20phone-1500w.png");
+  }
+  .main-page-countdown-padding {
+    padding: var(--dl-space-space-fourunits);
+  }
+  .main-page-text47 {
+    font-size: 32px;
+  }
+  .main-page-text48 {
+    font-size: 32px;
+  }
+  .main-page-countdown-times {
+    margin-top: var(--dl-space-space-threeunits);
+  }
+  .main-page-days1 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+  }
+  .main-page-text49 {
+    padding: 0px;
+    font-size: 64px;
+  }
+  .main-page-hours1 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+  }
+  .main-page-text51 {
+    padding: 0px;
+    font-size: 64px;
+  }
+  .main-page-minutes1 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+  }
+  .main-page-text53 {
+    padding: 0px;
+    font-size: 64px;
+  }
+  .main-page-second1 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+  }
+  .main-page-text55 {
+    padding: 0it;
+    font-size: 64px;
+  }
+}
+@media(max-width: 479px) {
+  .main-page-youre-invited {
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/Background/s1%20phone-1500w.png");
+    background-position: center;
+  }
+  .main-page-padding {
+    align-self: center;
+    align-items: center;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+    justify-content: center;
+  }
+  .main-page-content {
+    height: 100%;
+    position: 0px;
+    align-self: center;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-page-text {
+    color: rgb(237, 226, 204);
+    font-size: 48px;
+    align-self: center;
+    text-align: center;
+    font-family: LTGlockenspiel-Black;
+  }
+  .main-page-head {
+    height: 100vh;
+    align-self: center;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/Background/s2%20phone%20revise-1500w.png");
+    background-position: top right;
+  }
+  .main-page-head-container {
+    height: 100%;
+    position: relative;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-fourunits);
+    justify-content: center;
+  }
+  .main-page-head-content {
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .main-page-container03 {
+    width: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .main-page-text01 {
+    font-size: 24px;
+    align-self: flex-start;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-text02 {
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .main-page-container04 {
+    width: auto;
+    opacity: 0.6;
+    padding: var(--dl-space-space-halfunit);
+    box-shadow: 4px 4px 4px 0px #28282a;
+    align-items: flex-start;
+    border-radius: var(--dl-radius-radius-radius8);
+    justify-content: flex-end;
+    background-color: #ede2cc;
+  }
+  .main-page-text08 {
+    color: rgb(40, 40, 42);
+    width: auto;
+    font-size: 12px;
+    align-self: stretch;
+    text-align: left;
+    font-family: PlusJakartaSans-SemiBold;
+  }
+  .main-page-text09 {
+    font-size: 12px;
+    margin-top: var(--dl-space-space-oneandhalfunits);
+  }
+  .main-page-the-groom {
+    height: 100vh;
+    max-height: auto;
+    background-size: cover;
+    justify-content: flex-start;
+    background-image: url("/Background/s3%20phone-1500w.png");
+  }
+  .main-page-the-groom-padding {
+    height: 100%;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-the-groom-content {
+    width: 100%;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main-page-container05 {
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .main-page-text10 {
+    color: rgb(40, 40, 42);
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    align-self: center;
+    font-family: LTGlockenspiel-Black;
+  }
+  .main-page-text11 {
+    color: rgb(40, 40, 42);
+    height: auto;
+    font-size: 48px;
+    align-self: center;
+    margin-top: var(--dl-space-space-twounits);
+    text-align: center;
+    font-family: LTGlockenspiel-Black;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-text18 {
+    color: rgb(40, 40, 42);
+    font-size: 16px;
+    align-self: center;
+    margin-top: 0px;
+    text-align: center;
+    font-family: PlusJakartaSans-Bold;
+  }
+  .main-page-text19 {
+    color: rgb(40, 40, 42);
+    font-size: 16px;
+    align-self: center;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+    font-family: PlusJakartaSans-Regular;
+  }
+  .main-page-text22 {
+    color: rgb(40, 40, 42);
+    font-size: 12px;
+    align-self: center;
+    box-shadow: 2px 5px 10px 0px #28282a;
+    text-align: left;
+    font-family: PlusJakartaSans-Regular;
+    padding-top: var(--dl-space-space-halfunit);
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: rgb(255, 198, 97);
+  }
+  .main-page-the-bride {
+    height: 100vh;
+    background-size: cover;
+    justify-content: flex-start;
+    background-image: url("/Background/s4%20phone-1500w.png");
+  }
+  .main-page-the-bride-padding {
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-the-bride-content {
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main-page-container06 {
+    width: auto;
+    align-self: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .main-page-text23 {
+    color: rgb(40, 40, 42);
+    font-size: 24px;
+    align-self: center;
+    text-align: center;
+    font-family: LTGlockenspiel-Black;
+  }
+  .main-page-text24 {
+    font-size: 48px;
+    align-self: center;
+    margin-top: var(--dl-space-space-threeunits);
+    text-align: center;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .main-page-text29 {
+    font-size: 16px;
+    align-self: center;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .main-page-text30 {
+    font-size: 16px;
+    align-self: center;
+    text-align: center;
+  }
+  .main-page-link {
+    color: rgb(40, 40, 42);
+    font-size: 12px;
+    align-self: center;
+    box-shadow: 2px 2px 4px 0px #28282a;
+    text-align: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: rgb(255, 198, 97);
+  }
+  .main-page-acara {
+    height: 100vh;
+    justify-content: flex-start;
+  }
+  .main-page-event-padding {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-event-content {
+    height: 100%;
+    align-self: stretch;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .main-page-container07 {
+    width: auto;
+    align-self: flex-end;
+    align-items: flex-end;
+    margin-bottom: var(--dl-space-space-fourunits);
+    justify-content: flex-start;
+  }
+  .main-page-text33 {
+    font-size: 24px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-text34 {
+    color: rgb(237, 226, 204);
+    width: 100%;
+    font-size: 48px;
+    align-self: flex-end;
+    text-align: right;
+    font-family: LTGlockenspiel-Black;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-acara1 {
+    gap: var(--dl-space-space-oneandhalfunits);
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: 0px;
+    flex-direction: column;
+  }
+  .main-page-akad {
+    align-self: flex-end;
+    align-items: flex-end;
+  }
+  .main-page-text35 {
+    font-size: 16px;
+    text-align: right;
+  }
+  .main-page-text36 {
+    font-size: 16px;
+    align-self: flex-end;
+    text-align: right;
+  }
+  .main-page-akad1 {
+    align-self: flex-end;
+    align-items: flex-end;
+  }
+  .main-page-text37 {
+    font-size: 16px;
+    align-self: flex-end;
+  }
+  .main-page-text38 {
+    font-size: 16px;
+  }
+  .main-page-container08 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .main-page-alamat {
+    align-self: flex-start;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-text39 {
+    font-size: 16px;
+  }
+  .main-page-text40 {
+    font-size: 16px;
+  }
+  .main-page-link1 {
+    color: #28282A;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+  }
+  .main-page-love-story {
+    background-size: cover;
+    background-image: url("/Background/s6%20phone-1500w.png");
+  }
+  .main-page-love-story-padding {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-love-story-content {
+    width: 100%;
+    justify-content: center;
+  }
+  .main-page-text43 {
+    font-size: 24px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-container09 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .main-page-slider {
+    width: 100%;
+  }
+  .main-page-slider-slide {
+    width: 100%;
+  }
+  .main-page-gift {
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/Background/s7%20phone-1500w.png");
+  }
+  .main-page-gift-padding {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .main-page-gift-content {
+    width: 100%;
+    justify-content: center;
+  }
+  .main-page-text44 {
+    font-size: 24px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .main-page-text45 {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .main-page-rekening-select {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-page-select {
+    width: 100%;
+    height: 100%;
+    padding: var(--dl-space-space-halfunit);
+    margin-right: 0px;
+  }
+  .main-page-button1 {
+    font-size: 12px;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .main-page-text46 {
+    font-size: 16px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .main-page-alamat-select {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-page-select1 {
+    height: 100%;
+    padding: var(--dl-space-space-halfunit);
+    margin-right: 0px;
+  }
+  .main-page-button2 {
+    font-size: 12px;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .main-page-countdown {
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/Background/s8%20phone-1500w.png");
+  }
+  .main-page-countdown-padding {
+    align-items: center;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+    justify-content: center;
+  }
+  .main-page-countdown-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .main-page-text47 {
+    font-size: 24px;
+  }
+  .main-page-text48 {
+    font-size: 24px;
+  }
+  .main-page-countdown-times {
+    gap: var(--dl-space-space-unit);
+    margin-top: var(--dl-space-space-twounits);
+    align-items: center;
+    justify-content: center;
+  }
+  .main-page-days {
+    gap: var(--dl-space-space-oneandhalfunits);
+    align-items: center;
+    justify-content: center;
+  }
+  .main-page-days1 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .main-page-text49 {
+    color: rgb(255, 198, 97);
+    padding: 0px;
+    font-size: 48px;
+    font-family: LTGlockenspiel-Black;
+    text-transform: capitalize;
+  }
+  .main-page-text50 {
+    font-size: 12px;
+  }
+  .main-page-hours {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .main-page-hours1 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .main-page-text51 {
+    color: rgb(255, 198, 97);
+    padding: 0px;
+    font-size: 48px;
+    font-family: LTGlockenspiel-Black;
+    text-transform: capitalize;
+  }
+  .main-page-text52 {
+    font-size: 12px;
+  }
+  .main-page-minutes {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .main-page-minutes1 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .main-page-text53 {
+    color: rgb(255, 198, 97);
+    padding: 0px;
+    font-size: 48px;
+    font-family: LTGlockenspiel-Black;
+    text-transform: capitalize;
+  }
+  .main-page-text54 {
+    color: rgb(255, 198, 97);
+    font-size: 12px;
+    font-family: PlusJakartaSans-Bold;
+  }
+  .main-page-second {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .main-page-second1 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .main-page-text55 {
+    color: rgb(255, 198, 97);
+    padding: 0px;
+    font-size: 48px;
+    font-family: LTGlockenspiel-Black;
+    text-transform: capitalize;
+  }
+  .main-page-text56 {
+    color: rgb(255, 198, 97);
+    font-size: 12px;
+  }
+  .main-page-watermark {
+    display: none;
+    font-size: 32px;
+  }
+}

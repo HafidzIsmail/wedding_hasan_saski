@@ -1,0 +1,28 @@
+.app-component-container {
+  gap: var(--dl-space-space-twounits);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.app-component-image {
+  width: 20px;
+  height: 10px;
+  align-self: center;
+  object-fit: cover;
+}
+.app-component-root-class-name1 {
+  flex: 0;
+  left: 49%;
+  bottom: 0px;
+  position: absolute;
+}
+.app-component-root-class-name2 {
+  flex: 0;
+  left: 49%;
+  bottom: 0px;
+  position: absolute;
+}
