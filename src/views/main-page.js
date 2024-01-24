@@ -1,18 +1,9 @@
 import React, { useEffect, useState } from 'react'
 
-import * as React from "react"
-
-import SeoImage from "../views/ogImage"
-
-
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import './main-page.css'
-
-export const Head = () => <>
-<SeoImage customImage={'https://wedding-hasan-saski.vercel.app'}/>
-</>
 
 const MainPage = (props) => {
   const [audio, setAudio] = useState()
@@ -90,7 +81,7 @@ const MainPage = (props) => {
     <main className="main-page-container">
       <Helmet>
         <title>Hasan & Saski Wedding Invitation</title>
-        {/* <meta
+        <meta
           name="description"
           content={"A website invitation for you from Hasan &amp; Saski!"}
         />
@@ -105,29 +96,7 @@ const MainPage = (props) => {
         <meta
           property="og:image"
           content={"https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/12bc0205-6668-4b08-95c0-782e5f1c39ff/f5bedace-bd02-47a2-9403-ba2b61a2a3e5?org_if_sml=1&amp;q=80&amp;force_format=original"}
-        /> */}
-
-{/* <!-- HTML Meta Tags --> */}
-{/* <title>Hasan & Saski Wedding Invitation</title> */}
-<meta name="description" content=""/>
-
-{/* <!-- Facebook Meta Tags --> */}
-<meta property="og:url" content="https://wedding-hasan-saski.vercel.app"/>
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hasan & Saski Wedding Invitation"/>
-<meta property="og:description" content=""/>
-<meta property="og:image" content=""/>
-
-{/* <!-- Twitter Meta Tags --> */}
-<meta name="twitter:card" content="summary_large_image"/>
-<meta property="twitter:domain" content="wedding-hasan-saski.vercel.app"/>
-<meta property="twitter:url" content="https://wedding-hasan-saski.vercel.app"/>
-<meta name="twitter:title" content="Hasan & Saski Wedding Invitation"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:image" content=""/>
-
-{/* <!-- Meta Tags Generated via https://www.opengraph.xyz --> */}
-</meta>
+        />
 
       </Helmet>
       {!open ? (
