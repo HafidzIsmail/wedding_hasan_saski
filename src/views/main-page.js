@@ -83,19 +83,19 @@ const MainPage = (props) => {
         <title>Hasan & Saski Wedding Invitation</title>
         <meta
           name="description"
-          content="A website invitation for you from Hasan &amp; Saski!"
+          content={"A website invitation for you from Hasan &amp; Saski!"}
         />
         <meta
           property="og:title"
-          content="Hasan &amp; Saski Wedding Invitation"
+          content={"Hasan &amp; Saski Wedding Invitation"}
         />
         <meta
           property="og:description"
-          content="You are Invited! To our wedding ceremonial will be held in 4 February 2024. Take a look this wedding invitation for more info!"
+          content={"You are Invited! To our wedding ceremonial will be held in 4 February 2024. Take a look this wedding invitation for more info!"}
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/12bc0205-6668-4b08-95c0-782e5f1c39ff/f5bedace-bd02-47a2-9403-ba2b61a2a3e5?org_if_sml=1&amp;q=80&amp;force_format=original"
+          content={"https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/12bc0205-6668-4b08-95c0-782e5f1c39ff/f5bedace-bd02-47a2-9403-ba2b61a2a3e5?org_if_sml=1&amp;q=80&amp;force_format=original"}
         />
       </Helmet>
       {!open ? (
