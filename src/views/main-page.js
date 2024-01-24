@@ -1,9 +1,18 @@
 import React, { useEffect, useState } from 'react'
 
+import * as React from "react"
+
+import SeoImage from "../views/ogImage"
+
+
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import './main-page.css'
+
+export const Head = () => <>
+<SeoImage customImage={'https://wedding-hasan-saski.vercel.app'}/>
+</>
 
 const MainPage = (props) => {
   const [audio, setAudio] = useState()
