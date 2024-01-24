@@ -91,7 +91,7 @@ const MainPage = (props) => {
         />
         <meta
           property="og:description"
-          content={"You are Invited! To our wedding ceremonial will be held in 4 February 2024. Take a look this wedding invitation for more info!"}
+          content={"You are Invited! Our wedding ceremonial will be held in 4 February 2024. Take a look this wedding invitation for more info!"}
         />
         <meta
           property="og:image"
